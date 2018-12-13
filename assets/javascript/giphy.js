@@ -53,7 +53,7 @@
     
         //url = 'http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=ErM6BHTvWocfasWtpefms3rUNB0uHoQV&limit=5'
 
-        url = 'http://api.giphy.com/v1/gifs/search?'
+        url = 'https://api.giphy.com/v1/gifs/search?'
         queryURL = url + 'q=' + animal + '&api_key=' + apiKey + '&limit=' + limit;
         console.log(queryURL);
 
