@@ -6,20 +6,48 @@
         <!-- Bootstrap File -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
        
-        <title>GHIPHY API</title>
+        <title>Custom meme generator</title>
 
     </head>
 
     <body>
+
+         <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">Custom Meme Generator</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  
+                  
+                  <li class="nav-item"></li>
+                      <a class="nav-link" href="#">Home</a>
+                  </li>
+                  
+      
+                </ul>
+              </div>
+            </div>
+          </nav>
             
+          <br>
+
         <div class="container">
 
             <!-- ROW 1 BUTTONS-->
             <div class="row">
                     <div class="col-sm-12">
                             <div class="title"> 
-                                    <h1> GHIPHY API </h1>
+                             <br>   
+                                    <h3> Instructions: </h3>
+                                    <h6> 1- Use the buttons below to call the Giphy API and receive fresh memes.</h6>
+                                    <h6> 2- Create new buttons that you can then click to receive memes with custom topics. </h6>
+                                    <h6> 3- Click on a meme and it will become an animated video</h6>
                             </div>  
+                            <br>
                     </div>
             </div>
 
@@ -37,7 +65,7 @@
             <div class="row">
                 <div class="col-sm-12">
                         <div class="form"> 
-                            Add:<br>
+                            Add custom topic:<br>
                             <input type="text" id="new_animal" value="">
                             <input type="submit" id="submit_new_animal" value="Submit">
                         </div>  
